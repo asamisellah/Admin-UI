@@ -1,0 +1,30 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  font-family: sans-serif; }
+
+* {
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0; }
+
+.container {
+  display: flex;
+  height: 100vh; }
+
+.sidebar {
+  background-color: cyan;
+  order: -1;
+  width: 20%; }
+
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column; }
+  .main .header {
+    height: 6rem; }
+  .main .content {
+    background-color: #ccc;
+    flex: 1; }
+
+/*# sourceMappingURL=style.css.map */
