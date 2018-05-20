@@ -1,0 +1,50 @@
+.header {
+  height: 6rem;
+  box-shadow: 0 0.2rem 3rem rgba(0, 0, 0, 0.2);
+
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    margin: 0 3rem;
+
+    &__left,
+    &__right {
+      display: flex;
+      align-items: center;
+    }
+
+    &__icon {
+      position: relative;
+      margin-right: 2.5rem;
+      height: 1.75rem;
+      width: 1.75rem;
+      fill: currentColor;
+    }
+    .user {
+      display: flex;
+      align-items: center;
+      font-size: 1.5rem;
+      &__avatar {
+        height: 5rem;
+        width: 5rem;
+        border-radius: 50rem;
+        margin-right: 2rem;
+      }
+    }
+    &__notification {
+      display: inline-block;
+      background-color: deeppink;
+      color: #ffff;
+      font-weight: 700;
+      font-size: 0.9rem;
+      text-align: center;
+      padding: 0.2rem;
+      min-width: 1.5rem;
+      height: 1.5rem;
+      border-radius: 50%;
+      position: absolute;
+      top: 0.2rem;
+    }
+  }
+}
